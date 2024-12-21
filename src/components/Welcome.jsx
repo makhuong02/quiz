@@ -1,7 +1,7 @@
 import React from "react";
 import foxer from "../assets/foxer.png";
 
-const Welcome = ({ startQuiz }) => {
+const Welcome = ({ showInstruc }) => {
 	return (
 		<div className="welcome-card">
 			<div>
@@ -13,7 +13,7 @@ const Welcome = ({ startQuiz }) => {
 			</div>
 
 			<img src={foxer} alt="" />
-			<button onClick={startQuiz} className="start-button">
+			<button onClick={showInstruc} className="start-button">
 				Bắt Đầu
 			</button>
 		</div>
